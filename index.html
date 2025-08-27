@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar</title>
+</head>
+<style>
+  
+nav{
+  position: sticky;
+  background-color: darkblue;
+  width: 100%;
+  top: 0;
+  
+  }
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+  height: 150px;
+}
+.navbar li{
+list-style: none;
+float: left;
+display: block;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: cursive;  
+}
+.navbar ul{
+  gap: 60px;
+  display: flex;
+  margin-right:200PX;
+}
+.navbar button{
+  background-color: red;
+  padding: 20px ;
+  border-radius: 9px;
+  font-size: medium;
+  font-family: serif;
+  color: white;
+  border: none;
+}
+.navbar li:hover{
+  color: rgb(252, 145, 6);
+  border-bottom: red solid 2px;
+}
+.logo{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  width: 200px;
+  justify-content: baseline;
+}
+.logo:hover{
+  color: rgb(252, 145, 6);
+}
+</style>
+<body>
+  <nav>
+    <div class="navbar">
+    <div class="logo">
+        <img src="images/2dad0b2adc2779c07de2377fa35dba38.jpg" alt="" style="width: 100px;">
+        DEATH IS THE ONLY ESCAPE!!!
+      </div>
+    <ul>
+      <li>ONE</li>
+      <li>TWO</li>
+      <li>THREE</li>
+      <li>FOUR</li>
+      <li>FIVE</li>
+    </ul>
+    <div>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_681_6745)"><path fill-rule="evenodd" clip-rule="evenodd" d="M6 2H14V4H12V6H10V4H6V2ZM4 6V4H6V6H4ZM4 16H2V6H4V16ZM6 18H4V16H6V18ZM8 20H6V18H8V20ZM18 20V22H8V20H18ZM20 18V20H18V18H20ZM18 14H20V18H22V10H20V12H18V14ZM12 14V16H18V14H12ZM10 12H12V14H10V12ZM10 12V6H8V12H10Z" fill="#94A3B8"></path></g><defs><clipPath id="clip0_681_6745"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg>
+    <button>SIGN UP</button>
+    </div>
+    </div>
+  </nav>
+</body>
+</html>
